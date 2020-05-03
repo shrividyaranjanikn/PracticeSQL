@@ -61,7 +61,11 @@
 
   SELECT name 
   FROM accounts
-  WHERE 
+  WHERE name NOT LIKE '%one%';
+
+  SELECT name
+  FROM accounts
+  WHERE name NOT LIKE '%s';
 
 
 
@@ -70,4 +74,3 @@
 
 
 
-  
